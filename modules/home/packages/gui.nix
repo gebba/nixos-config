@@ -4,6 +4,7 @@
     ## Multimedia
     audacity
     gimp
+    blender
     obs-studio
     pavucontrol
     soundwireserver
