@@ -16,8 +16,8 @@
     nethack
 
     ## Celeste
-    celeste-classic
-    celeste-classic-pm
+    #celeste-classic
+    #celeste-classic-pm
 
     ## Doom
     # gzdoom
@@ -25,7 +25,7 @@
 
     ## Emulation
     sameboy
-    snes9x
+    #snes9x
     # cemu
     # dolphin-emu
   ];

@@ -19,9 +19,10 @@ in
       arrterian.nix-env-selector
       # ms-python.python
       llvm-vs-code-extensions.vscode-clangd
-      ziglang.vscode-zig
+      #ziglang.vscode-zig
       tamasfe.even-better-toml
       golang.go
+      rust-lang.rust-analyzer
 
       ## Color scheme
       jdinhlife.gruvbox

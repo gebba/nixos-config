@@ -37,7 +37,8 @@ in
     modules-right = [
       "cpu"
       "memory"
-      (if (host == "desktop") then "disk" else "")
+      #(if (host == "desktop") then "disk" else "")
+      "disk"
       "pulseaudio"
       "network"
       "battery"
@@ -142,8 +143,9 @@ in
     };
     "hyprland/language" = {
       format = "<span foreground='#FABD2F'> </span> {}";
-      format-fr = "FR";
+      format-sv = "SE";
       format-en = "US";
+      keyboard-name = "at-translated-set-2-keyboard";
     };
     "custom/launcher" = {
       format = "";

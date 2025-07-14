@@ -2,7 +2,7 @@
 {
   imports = [
     ./aseprite/aseprite.nix           # pixel art editor
-    ./audacious.nix                   # music player
+    #./audacious.nix                   # music player
     ./bat.nix                         # better cat command
     ./browser.nix                     # firefox based browser
     ./btop.nix                        # resouces monitor 
@@ -17,6 +17,7 @@
     ./gnome.nix                       # gnome apps
     ./gtk.nix                         # gtk theme
     ./hyprland                        # window manager
+    ./kew.nix			      # terminal music player
     ./kitty.nix                       # terminal
     ./lazygit.nix
     ./micro.nix                       # nano replacement

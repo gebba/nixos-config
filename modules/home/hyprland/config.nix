@@ -29,7 +29,7 @@ in
       ];
 
       input = {
-        kb_layout = "us,fr";
+        kb_layout = "us,se";
         kb_options = "grp:alt_caps_toggle";
         numlock_by_default = true;
         repeat_delay = 300;
@@ -39,6 +39,7 @@ in
         sensitivity = 0;
         touchpad = {
           natural_scroll = true;
+	  scroll_factor = 0.2;
         };
       };
 
